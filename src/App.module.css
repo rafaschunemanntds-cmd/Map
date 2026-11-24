@@ -1,0 +1,21 @@
+.wrapHome{
+  min-height: 100vh;
+  height: auto;
+  background-image: url('https://i.pinimg.com/736x/42/09/a4/4209a481c20553a44b4ec2184c68d0c6.jpg');
+  background-size: cover;
+  color: var(--light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+.map{
+  width: 70vw;
+  height: 70vh;
+  border-radius: 20px;
+}
+@media (width <= 1000px){
+  .map{
+    width: 90vw;
+    height: 80vh;
+  }
+}
